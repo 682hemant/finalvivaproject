@@ -1,0 +1,14 @@
+.table1 tbody tr td{
+
+  font-size: 14px;
+
+           a{
+  color:$main-color;
+    &:active{
+      color:#a161bf;
+    }
+  &:hover{
+  color:#a161bf;
+}
+}
+}

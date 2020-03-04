@@ -1,0 +1,284 @@
+
+@import "aside";
+@import "logo";
+@import "aside1";
+@import "table1";
+@import "sales1";
+@import "table";
+@import "sales";
+@import "table2";
+@import "media";
+@import "navbar";
+$main-color:#696969;
+.navbar{
+  margin-top: 0;
+  z-index:2;
+
+}
+html,body{
+  height:100%;
+  width:100%;
+  position:relative;
+  margin-top:52px;
+}
+*{
+  box-sizing:border-box;
+}
+.container-fluid {
+  padding-left:0;
+  padding-right:0;
+
+}
+
+.navbar li a{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size :12px;
+
+}
+
+table{
+  margin-top:10px;
+}
+.aside1 .upperhading{
+  color: $main-color;
+    font-family: montserrat,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    Font-size:12px;
+    border-bottom: 1px solid #a161bf;
+    vertical-align: center;
+    margin-left: 50px;
+}
+.read-more a{
+  border-left: 2px solid $main-color;
+    border-right: 2px solid $main-color;
+    color: $main-color;
+    font-family: maven pro,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+
+}
+.read-more a:hover{
+  color:#a161bf;
+}
+
+.aside-right{
+  position:relative;
+  margin-left:120px;
+}
+.foot{
+  height:200px;
+
+  text-align:center;
+  background-color:lightgrey;
+}
+ .icon{
+  padding-left:10px;
+  padding-right:10px;
+  margin-top:30px;
+}
+.top-heading{
+  color:$main-color;
+  font-size:24px;
+  margin-top:20px;
+}
+p strong.inverted{
+  font-size: 3em;
+  color:blue;
+}
+.table{
+  color:$main-color;
+
+  font-size:24px;
+    font-weight: 400;
+
+}
+.page3{
+  font-size:14px;
+  color: $main-color;
+  margin-top:20px;
+  latter-spacing:1px;
+  line-height: 1.5rem;
+}
+.product-categories{
+  color:$main-color;
+  text-transform: uppercase;
+  font-size:16px;
+  border-bottom:1px solid #a161bf ;
+}
+.badge-image{
+  text-align:center;
+}
+.badge-image::before{
+content: 'SALE';
+border-radius: 40px;
+background: red;
+display: inline-block;
+width: 40px;
+height: 40px;
+position: absolute;
+line-height:40px;
+color: #fff;
+transform: translate(-25px,-25px);
+}
+
+.breadcrumb{
+  background-color:white;
+}
+
+
+  .formats{
+    color:#a161bf;
+  }
+  .formatpara{
+    color:$main-color;
+    font-size:.8rem;
+    word-spacing: .2rem;
+
+  }
+  .forma{
+    color:$main-color;
+
+  font-size:.8rem;
+  text-transform: uppercase;
+
+  }
+  .forma:hover{
+    color:#a161bf;
+
+  font-size:.8rem;
+  text-transform: uppercase;
+
+  }
+  .d-flex img{
+    margin-bottom: .9rem;
+    margin-right:1rem;
+  }
+  .laqbtn{
+    color:$main-color;
+    font-size:1rem;
+    text-transform: uppercase;
+    margin-top:2rem;
+  }
+
+.like{
+  margin-bottom:.9rem;
+}
+.cart{
+  color:#a161bf;
+  font-size:1rem;
+  text-transform: uppercase;
+}
+.cartimages{
+  width:4rem;
+}
+.dropdown-item{
+  color:black;
+  font-weight:900;
+
+}
+.dropdown-item:hover{
+  color:#a161bf;
+}
+.upperhading:hover
+{
+  color:#a161bf;
+}
+.entry-title a:hover
+{
+  color:#a161bf;
+}
+.scrollspy-example{
+  height:20rem;
+  overflow:scroll;
+}
+
+
+@media screen and (max-width:411px){
+  .aside-right{
+  margin-left:0px;
+ }
+}
+@media screen and (max-width:900px){
+  .sales img{
+    border-radius: 50%;
+
+  }
+}
+@media screen and (max-width:900px){
+  .sales .pagination{
+    text-align:center;
+
+  }
+}
+@media screen and (max-width:900px){
+  .sales .caption{
+    text-align: center;
+    margin-top:10px;
+  }
+}
+@media screen and (max-width:360px){
+  .badge-image{
+    text-align:center;
+  }
+
+
+}
+
+@media screen and (max-width:660px){
+  .badge-image::before{
+  content: 'SALE';
+  border-radius: 30px;
+  background: red;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  line-height:30px;
+  color: #fff;
+  transform: translate(35px,35px);
+  }
+
+}
+.aside-right .entry-title{
+  margin:2rem 0;;
+}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
+.product-view img{
+  width:200px;
+}
+.select{
+  margin-bottom: 3rem;
+  width:10rem;
+  position: relative;
+  margin-left: 30rem;
+}
+@media screen and (max-width:1000px){
+  .select{
+    margin-left:0;
+  }
+}
+

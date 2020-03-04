@@ -1,0 +1,31 @@
+.aside1
+{
+  .entry-title{
+  font-size: 24px;
+    font-style: italic;
+     color: $main-color;
+    margin-bottom: 15px;
+    text-decoration:none
+}
+ .entry-title a{
+    text-decoration:none;
+  color: $main-color;
+
+}
+ small{
+  color: $main-color;
+
+}
+
+ a img:hover{
+  opacity:0.8;
+}
+ .left-para p{
+  color: $main-color;
+    background-color: #fff;
+    word-wrap: break-word;
+    font-family: lora,serif;
+    line-height: 2;
+    font-size: 14px;
+}
+}
